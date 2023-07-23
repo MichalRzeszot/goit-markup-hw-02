@@ -1,0 +1,111 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: var(--navyblue-background-and-heading-color);
+}
+:root{
+    --cloud-background-color:#F4F4FD;
+    --navyblue-background-and-heading-color:#2E2F42;
+    --orderservice-and-logospan-color:#4D5AE5;
+    --paragraph-color:#434455;
+    --h1-and-ourteam-images-bacground-color:#FFFFFF;
+    --portfolio-button:#404BBF;
+}
+.logo{
+    font-size: 18px;
+    line-height: 116.667%;
+    color:var(--navyblue-background-and-heading-color);
+    font-weight: 800;
+}
+.logo-span{
+    color:var(--orderservice-and-logospan-color);
+}
+.nav-menu{
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--navyblue-background-and-heading-color);
+    font-weight: 500;  
+}
+.contact{
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--navyblue-background-and-heading-color);
+}
+.contact:hover, .contact:focus{
+    color: var(--paragraph-color);
+} 
+.main-navy-section{
+    width: 1440px;
+    height: 600px;
+    background-color:var(--navyblue-background-and-heading-color);
+}
+.main-heading{
+    font-size: 56px;
+    line-height: 107.143%;
+    color: var(--h1-and-ourteam-images-bacground-color);
+    font-weight: 700; 
+}
+.main-button{
+    font-size: 16px;
+    line-height: 150%;
+    color:var(--h1-and-ourteam-images-bacground-color);
+    font-weight: 500;
+    padding: 16px 32px;
+    background-color: var(--orderservice-and-logospan-color);
+    cursor:pointer;
+}
+.portfolio-button{
+    padding: 12px 24px;
+    color:var(--orderservice-and-logospan-color);
+    background-color:var(--cloud-background-color);
+    cursor:pointer;
+    
+}
+.portfolio-button:hover, .portfolio-button:focus{
+    color:var(--h1-and-ourteam-images-bacground-color);
+    background-color:var(--portfolio-button);
+}
+.company-description-heading{
+    font-size: 20px;
+    line-height: 120%;
+    font-weight: 500;
+}
+.company-description-paragraph{
+    font-size: 16px;
+    line-height: 150%; 
+}
+.wawd-heading{
+    font-size: 36px;
+    line-height: 111.111%;
+    font-weight: 700; 
+}
+.team-heading{
+    font-size: 36px;
+    line-height: 111.111%;
+    font-weight: 700;
+}
+.img-heading{
+    font-size: 20px;
+    line-height: 120%;
+    font-weight: 500; 
+}
+.img-paragraph{
+    font-size: 16px;
+    line-height: 150%;
+}
+.footer-background{
+    width: 1440px;
+    height: 312px;
+    background-color: var(--navyblue-background-and-heading-color);
+}
+.footer-logo{
+    font-size: 18px;
+    line-height: 116.667%;
+    color: var(--h1-and-ourteam-images-bacground-color);
+    font-weight: 800;
+}
+.footer-paragraph{
+    font-size: 16px;
+    line-height: 150%;
+    color:var(--h1-and-ourteam-images-bacground-color);
+}
