@@ -125,7 +125,7 @@ body {
 }
 .footer-logo {
   font-size: 18px;
-  line-height: 1.17%;
+  line-height: 1.17;
   color: var(--h1-and-ourteam-images-bacground-color);
   font-weight: 800;
   font-family: "Raleway", sans-serif;
