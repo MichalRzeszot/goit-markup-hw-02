@@ -1,112 +1,139 @@
-body{
-    font-family: 'Roboto', sans-serif;
-    color: var(--navyblue-background-and-heading-color);
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--navyblue-background-and-heading-color);
 }
-:root{
-    --cloud-background-color:#F4F4FD;
-    --navyblue-background-and-heading-color:#2E2F42;
-    --orderservice-and-logospan-color:#4D5AE5;
-    --paragraph-color:#434455;
-    --h1-and-ourteam-images-bacground-color:#FFFFFF;
-    --portfolio-button:#404BBF;
+:root {
+  --cloud-background-color: #f4f4fd;
+  --navyblue-background-and-heading-color: #2e2f42;
+  --orderservice-and-logospan-color: #4d5ae5;
+  --paragraph-color: #434455;
+  --h1-and-ourteam-images-bacground-color: #ffffff;
+  --portfolio-button: #404bbf;
 }
-.logo{
-    font-size: 18px;
-    line-height: 116.667%;
-    color:var(--navyblue-background-and-heading-color);
-    font-weight: 800;
-    font-family:'Raleway', sans-serif;
+.logo {
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--navyblue-background-and-heading-color);
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
 }
-.logo-span{
-    color:var(--orderservice-and-logospan-color);
+.logo-span {
+  color: var(--orderservice-and-logospan-color);
 }
-.nav-menu{
-    font-size: 16px;
-    line-height: 150%;
-    color: var(--navyblue-background-and-heading-color);
-    font-weight: 500;  
+.nav-menu {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--navyblue-background-and-heading-color);
+  font-weight: 500;
+  text-decoration: none;
 }
-.contact{
-    font-size: 16px;
-    line-height: 150%;
-    color: var(--navyblue-background-and-heading-color);
+.nav-menu:hover,
+.nav-menu:focus {
+  color: var(--portfolio-button);
 }
-.contact:hover, .contact:focus{
-    color: var(--paragraph-color);
-} 
-.main-navy-section{
-    width: 1440px;
-    height: 600px;
-    background-color:var(--navyblue-background-and-heading-color);
+.no-dots {
+  list-style: none;
 }
-.main-heading{
-    font-size: 56px;
-    line-height: 107.143%;
-    color: var(--h1-and-ourteam-images-bacground-color);
-    font-weight: 700; 
+.contact {
+  font-size: 16px;
+  line-height: 1.5%;
+  color: var(--navyblue-background-and-heading-color);
+  text-decoration: none;
+  font-style: normal;
 }
-.main-button{
-    font-size: 16px;
-    line-height: 150%;
-    color:var(--h1-and-ourteam-images-bacground-color);
-    font-weight: 500;
-    padding: 16px 32px;
-    background-color: var(--orderservice-and-logospan-color);
-    cursor:pointer;
+.contact:hover,
+.contact:focus {
+  color: var(--portfolio-button);
 }
-.portfolio-button{
-    padding: 12px 24px;
-    color:var(--orderservice-and-logospan-color);
-    background-color:var(--cloud-background-color);
-    cursor:pointer;
-    
+.main-navy-section {
+  background-color: var(--navyblue-background-and-heading-color);
 }
-.portfolio-button:hover, .portfolio-button:focus{
-    color:var(--h1-and-ourteam-images-bacground-color);
-    background-color:var(--portfolio-button);
+.main-heading {
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--h1-and-ourteam-images-bacground-color);
+  font-weight: 700;
+  letter-spacing: 1.12px;
 }
-.company-description-heading{
-    font-size: 20px;
-    line-height: 120%;
-    font-weight: 500;
+.main-button {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--h1-and-ourteam-images-bacground-color);
+  font-weight: 500;
+  padding: 16px 32px;
+  background-color: var(--orderservice-and-logospan-color);
+  cursor: pointer;
+  font-family: "Roboto";
 }
-.company-description-paragraph{
-    font-size: 16px;
-    line-height: 150%; 
+.main-button:hover {
+  background-color: var(--portfolio-button);
 }
-.wawd-heading{
-    font-size: 36px;
-    line-height: 111.111%;
-    font-weight: 700; 
+.portfolio-button {
+  padding: 12px 24px;
+  color: var(--orderservice-and-logospan-color);
+  background-color: var(--cloud-background-color);
+  cursor: pointer;
+  font-family: "Roboto";
+  font-size: 16px;
+  letter-spacing: 0.64px;
+  line-height: 1.5;
 }
-.team-heading{
-    font-size: 36px;
-    line-height: 111.111%;
-    font-weight: 700;
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--h1-and-ourteam-images-bacground-color);
+  background-color: var(--portfolio-button);
 }
-.img-heading{
-    font-size: 20px;
-    line-height: 120%;
-    font-weight: 500; 
+.company-description-heading {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0.4px;
 }
-.img-paragraph{
-    font-size: 16px;
-    line-height: 150%;
+.company-description-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--paragraph-color);
 }
-.footer-background{
-    width: 1440px;
-    height: 312px;
-    background-color: var(--navyblue-background-and-heading-color);
+.team-section {
+  background-color: var(--cloud-background-color);
 }
-.footer-logo{
-    font-size: 18px;
-    line-height: 116.667%;
-    color: var(--h1-and-ourteam-images-bacground-color);
-    font-weight: 800;
-    font-family:'Raleway', sans-serif;
+.wawd-heading {
+  font-size: 36px;
+  line-height: 1.11;
+  font-weight: 700;
+  letter-spacing: 0.72px;
 }
-.footer-paragraph{
-    font-size: 16px;
-    line-height: 150%;
-    color:var(--h1-and-ourteam-images-bacground-color);
+.team-heading {
+  font-size: 36px;
+  line-height: 1.11;
+  font-weight: 700;
+  letter-spacing: 0.72px;
+}
+.img-heading {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+.img-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.footer-background {
+  background-color: var(--navyblue-background-and-heading-color);
+}
+.footer-logo {
+  font-size: 18px;
+  line-height: 1.17%;
+  color: var(--h1-and-ourteam-images-bacground-color);
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+}
+.footer-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--h1-and-ourteam-images-bacground-color);
 }
