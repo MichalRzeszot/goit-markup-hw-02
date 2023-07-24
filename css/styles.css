@@ -16,6 +16,7 @@ body{
     line-height: 116.667%;
     color:var(--navyblue-background-and-heading-color);
     font-weight: 800;
+    font-family:'Raleway';
 }
 .logo-span{
     color:var(--orderservice-and-logospan-color);
@@ -103,6 +104,7 @@ body{
     line-height: 116.667%;
     color: var(--h1-and-ourteam-images-bacground-color);
     font-weight: 800;
+    font-family:'Raleway';
 }
 .footer-paragraph{
     font-size: 16px;
