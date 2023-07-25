@@ -17,6 +17,7 @@ body {
   font-weight: 800;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
+  letter-spacing: 0.54px;
 }
 .logo-span {
   color: var(--orderservice-and-logospan-color);
@@ -27,6 +28,7 @@ body {
   color: var(--navyblue-background-and-heading-color);
   font-weight: 500;
   text-decoration: none;
+  letter-spacing: 0.32px;
 }
 .nav-menu:hover,
 .nav-menu:focus {
@@ -41,6 +43,7 @@ body {
   color: var(--navyblue-background-and-heading-color);
   text-decoration: none;
   font-style: normal;
+  letter-spacing: 0.32px;
 }
 .contact:hover,
 .contact:focus {
@@ -78,6 +81,7 @@ body {
   font-size: 16px;
   letter-spacing: 0.64px;
   line-height: 1.5;
+  font-weight: 500;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
